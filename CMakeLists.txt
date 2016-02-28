@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.3)
+project(untitled)
+set(SOURCE_FILES main.cpp Integer.cc)
+add_executable(untitled ${SOURCE_FILES})
+target_link_libraries(untitled -lgmpxx -lgmp)
